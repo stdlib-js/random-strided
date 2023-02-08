@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/random-strided-arcsine": "^null",
+    "@stdlib/random-strided-uniform": "^null",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
