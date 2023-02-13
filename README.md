@@ -65,15 +65,6 @@ The namespace contains the following:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`arcsine( N, a, sa, b, sb, out, so[, options] )`][@stdlib/random/strided/arcsine]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from an arcsine distribution.</span>
--   <span class="signature">[`beta( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/beta]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a beta distribution.</span>
--   <span class="signature">[`discreteUniform( N, a, sa, b, sb, out, so[, options] )`][@stdlib/random/strided/discrete-uniform]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a discrete uniform distribution.</span>
--   <span class="signature">[`exponential( N, lambda, sl, out, so[, options] )`][@stdlib/random/strided/exponential]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a exponential distribution.</span>
--   <span class="signature">[`lognormal( N, mu, sm, sigma, ss, out, so[, options] )`][@stdlib/random/strided/lognormal]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a lognormal distribution.</span>
--   <span class="signature">[`normal( N, mu, sm, sigma, ss, out, so[, options] )`][@stdlib/random/strided/normal]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a normal distribution.</span>
--   <span class="signature">[`randu( N, out, so[, options] )`][@stdlib/random/strided/randu]</span><span class="delimiter">: </span><span class="description">fill a strided array with uniformly distributed pseudorandom numbers between `0` and `1`.</span>
--   <span class="signature">[`uniform( N, a, sa, b, sb, out, so[, options] )`][@stdlib/random/strided/uniform]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a continuous uniform distribution.</span>
-
 </div>
 
 <!-- </toc> -->
@@ -177,26 +168,6 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/random-strided/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/random-strided/main/LICENSE
-
-<!-- <toc-links> -->
-
-[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine
-
-[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta
-
-[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform
-
-[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential
-
-[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal
-
-[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal
-
-[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu
-
-[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform
-
-<!-- </toc-links> -->
 
 </section>
 
