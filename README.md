@@ -24,20 +24,30 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) strided array functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-strided
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, beta, betaprime, cosine, discreteUniform, exponential, gamma, invgamma, lognormal, minstd, minstdShuffle, mt19937, normal, randu, uniform } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+var ns = require( '@stdlib/random-strided' );
 ```
 
 #### ns
@@ -58,8 +68,11 @@ The namespace contains the following:
 -   <span class="signature">[`arcsine( N, a, sa, b, sb, out, so[, options] )`][@stdlib/random/strided/arcsine]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from an arcsine distribution.</span>
 -   <span class="signature">[`beta( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/beta]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a beta distribution.</span>
 -   <span class="signature">[`betaprime( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/betaprime]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a beta prime distribution.</span>
+-   <span class="signature">[`cosine( N, mu, sm, s, ss, out, so[, options] )`][@stdlib/random/strided/cosine]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a raised cosine distribution.</span>
 -   <span class="signature">[`discreteUniform( N, a, sa, b, sb, out, so[, options] )`][@stdlib/random/strided/discrete-uniform]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a discrete uniform distribution.</span>
 -   <span class="signature">[`exponential( N, lambda, sl, out, so[, options] )`][@stdlib/random/strided/exponential]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a exponential distribution.</span>
+-   <span class="signature">[`gamma( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/gamma]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a gamma distribution.</span>
+-   <span class="signature">[`invgamma( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/invgamma]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from an inverse gamma distribution.</span>
 -   <span class="signature">[`lognormal( N, mu, sm, sigma, ss, out, so[, options] )`][@stdlib/random/strided/lognormal]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a lognormal distribution.</span>
 -   <span class="signature">[`minstdShuffle( N, out, so[, options] )`][@stdlib/random/strided/minstd-shuffle]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers generated using a linear congruential pseudorandom number generator (LCG) whose output is shuffled.</span>
 -   <span class="signature">[`minstd( N, out, so[, options] )`][@stdlib/random/strided/minstd]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers generated using a linear congruential pseudorandom number generator (LCG).</span>
@@ -84,20 +97,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/random-strided' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -121,7 +125,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -183,29 +187,35 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine/tree/esm
+[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine
 
-[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta/tree/esm
+[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta
 
-[@stdlib/random/strided/betaprime]: https://github.com/stdlib-js/random-strided-betaprime/tree/esm
+[@stdlib/random/strided/betaprime]: https://github.com/stdlib-js/random-strided-betaprime
 
-[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform/tree/esm
+[@stdlib/random/strided/cosine]: https://github.com/stdlib-js/random-strided-cosine
 
-[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential/tree/esm
+[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform
 
-[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal/tree/esm
+[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential
 
-[@stdlib/random/strided/minstd-shuffle]: https://github.com/stdlib-js/random-strided-minstd-shuffle/tree/esm
+[@stdlib/random/strided/gamma]: https://github.com/stdlib-js/random-strided-gamma
 
-[@stdlib/random/strided/minstd]: https://github.com/stdlib-js/random-strided-minstd/tree/esm
+[@stdlib/random/strided/invgamma]: https://github.com/stdlib-js/random-strided-invgamma
 
-[@stdlib/random/strided/mt19937]: https://github.com/stdlib-js/random-strided-mt19937/tree/esm
+[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal
 
-[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal/tree/esm
+[@stdlib/random/strided/minstd-shuffle]: https://github.com/stdlib-js/random-strided-minstd-shuffle
 
-[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu/tree/esm
+[@stdlib/random/strided/minstd]: https://github.com/stdlib-js/random-strided-minstd
 
-[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform/tree/esm
+[@stdlib/random/strided/mt19937]: https://github.com/stdlib-js/random-strided-mt19937
+
+[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal
+
+[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu
+
+[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform
 
 <!-- </toc-links> -->
 
