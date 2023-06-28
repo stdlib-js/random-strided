@@ -51,6 +51,7 @@
     "@stdlib/random-strided-normal": "github:stdlib-js/random-strided-normal#main",
     "@stdlib/random-strided-randu": "github:stdlib-js/random-strided-randu#main",
     "@stdlib/random-strided-uniform": "github:stdlib-js/random-strided-uniform#main",
+    "@stdlib/random-strided-weibull": "github:stdlib-js/random-strided-weibull#main",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
   },
   "devDependencies": {
@@ -82,6 +83,7 @@
     "@stdlib/random-base-normal": "^0.0.6",
     "@stdlib/random-base-randu": "^0.0.8",
     "@stdlib/random-base-uniform": "^0.0.6",
+    "@stdlib/random-base-weibull": "^0.0.6",
     "@stdlib/strided-base-binary": "^0.0.8",
     "@stdlib/strided-base-nullary": "^0.0.7",
     "@stdlib/strided-base-unary": "^0.0.8",
