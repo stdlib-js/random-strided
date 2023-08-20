@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@stdlib/random-strided-arcsine": "^0.0.1",
-    "@stdlib/random-strided-beta": "github:stdlib-js/random-strided-beta#main",
+    "@stdlib/random-strided-beta": "^0.0.1",
     "@stdlib/random-strided-betaprime": "^0.0.1",
     "@stdlib/random-strided-cosine": "^0.0.1",
     "@stdlib/random-strided-discrete-uniform": "^0.0.1",
@@ -48,7 +48,7 @@
     "@stdlib/random-strided-minstd": "^0.0.1",
     "@stdlib/random-strided-minstd-shuffle": "^0.0.1",
     "@stdlib/random-strided-mt19937": "^0.0.1",
-    "@stdlib/random-strided-normal": "github:stdlib-js/random-strided-normal#main",
+    "@stdlib/random-strided-normal": "^0.0.1",
     "@stdlib/random-strided-randu": "^0.0.1",
     "@stdlib/random-strided-uniform": "^0.0.1",
     "@stdlib/random-strided-weibull": "^0.0.1",
