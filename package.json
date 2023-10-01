@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@stdlib/random-strided-arcsine": "^0.1.0",
-    "@stdlib/random-strided-beta": "^0.0.1",
+    "@stdlib/random-strided-beta": "^0.1.0",
     "@stdlib/random-strided-betaprime": "^0.1.0",
     "@stdlib/random-strided-cosine": "^0.1.0",
     "@stdlib/random-strided-discrete-uniform": "^0.1.0",
