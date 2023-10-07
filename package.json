@@ -52,7 +52,7 @@
     "@stdlib/random-strided-randu": "^0.1.0",
     "@stdlib/random-strided-uniform": "^0.1.0",
     "@stdlib/random-strided-weibull": "^0.1.0",
-    "@stdlib/utils-define-read-only-property": "^0.1.0"
+    "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-base-assert-is-accessor-array": "^0.1.0",
@@ -65,8 +65,8 @@
     "@stdlib/array-zeros": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/console-log-each": "^0.1.0",
-    "@stdlib/math-base-assert-is-nan": "^0.1.0",
-    "@stdlib/math-base-assert-is-nanf": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.1",
+    "@stdlib/math-base-assert-is-nanf": "^0.1.1",
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/random-base-arcsine": "^0.1.0",
     "@stdlib/random-base-beta": "^0.1.0",
@@ -87,7 +87,7 @@
     "@stdlib/strided-base-binary": "^0.1.0",
     "@stdlib/strided-base-nullary": "^0.1.0",
     "@stdlib/strided-base-unary": "^0.1.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
     "@stdlib/utils-keys": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
