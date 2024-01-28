@@ -55,6 +55,8 @@
     "@stdlib/random-strided-normal": "^0.1.0",
     "@stdlib/random-strided-poisson": "github:stdlib-js/random-strided-poisson#main",
     "@stdlib/random-strided-randu": "^0.1.0",
+    "@stdlib/random-strided-rayleigh": "github:stdlib-js/random-strided-rayleigh#main",
+    "@stdlib/random-strided-t": "github:stdlib-js/random-strided-t#main",
     "@stdlib/random-strided-uniform": "^0.1.0",
     "@stdlib/random-strided-weibull": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
@@ -98,6 +100,8 @@
     "@stdlib/random-base-normal": "^0.1.0",
     "@stdlib/random-base-poisson": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
+    "@stdlib/random-base-rayleigh": "^0.1.0",
+    "@stdlib/random-base-t": "^0.1.0",
     "@stdlib/random-base-triangular": "^0.1.0",
     "@stdlib/random-base-uniform": "^0.1.0",
     "@stdlib/random-base-weibull": "^0.1.0",
