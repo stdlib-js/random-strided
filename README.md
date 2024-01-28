@@ -35,20 +35,32 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) strided array functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-strided
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, bernoulli, beta, betaprime, chi, chisquare, cosine, discreteUniform, exponential, gamma, geometric, invgamma, lognormal, minstd, minstdShuffle, mt19937, normal, randu, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+var ns = require( '@stdlib/random-strided' );
 ```
 
 #### ns
@@ -99,20 +111,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/random-strided' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -136,7 +139,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -201,37 +204,37 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine/tree/esm
+[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine
 
-[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta/tree/esm
+[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta
 
-[@stdlib/random/strided/betaprime]: https://github.com/stdlib-js/random-strided-betaprime/tree/esm
+[@stdlib/random/strided/betaprime]: https://github.com/stdlib-js/random-strided-betaprime
 
-[@stdlib/random/strided/cosine]: https://github.com/stdlib-js/random-strided-cosine/tree/esm
+[@stdlib/random/strided/cosine]: https://github.com/stdlib-js/random-strided-cosine
 
-[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform/tree/esm
+[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform
 
-[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential/tree/esm
+[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential
 
-[@stdlib/random/strided/gamma]: https://github.com/stdlib-js/random-strided-gamma/tree/esm
+[@stdlib/random/strided/gamma]: https://github.com/stdlib-js/random-strided-gamma
 
-[@stdlib/random/strided/invgamma]: https://github.com/stdlib-js/random-strided-invgamma/tree/esm
+[@stdlib/random/strided/invgamma]: https://github.com/stdlib-js/random-strided-invgamma
 
-[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal/tree/esm
+[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal
 
-[@stdlib/random/strided/minstd-shuffle]: https://github.com/stdlib-js/random-strided-minstd-shuffle/tree/esm
+[@stdlib/random/strided/minstd-shuffle]: https://github.com/stdlib-js/random-strided-minstd-shuffle
 
-[@stdlib/random/strided/minstd]: https://github.com/stdlib-js/random-strided-minstd/tree/esm
+[@stdlib/random/strided/minstd]: https://github.com/stdlib-js/random-strided-minstd
 
-[@stdlib/random/strided/mt19937]: https://github.com/stdlib-js/random-strided-mt19937/tree/esm
+[@stdlib/random/strided/mt19937]: https://github.com/stdlib-js/random-strided-mt19937
 
-[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal/tree/esm
+[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal
 
-[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu/tree/esm
+[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu
 
-[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform/tree/esm
+[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform
 
-[@stdlib/random/strided/weibull]: https://github.com/stdlib-js/random-strided-weibull/tree/esm
+[@stdlib/random/strided/weibull]: https://github.com/stdlib-js/random-strided-weibull
 
 <!-- </toc-links> -->
 
