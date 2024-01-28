@@ -46,6 +46,7 @@
     "@stdlib/random-strided-discrete-uniform": "^0.1.0",
     "@stdlib/random-strided-exponential": "^0.1.0",
     "@stdlib/random-strided-gamma": "^0.1.0",
+    "@stdlib/random-strided-geometric": "github:stdlib-js/random-strided-geometric#main",
     "@stdlib/random-strided-invgamma": "^0.1.0",
     "@stdlib/random-strided-lognormal": "^0.1.0",
     "@stdlib/random-strided-minstd": "^0.1.0",
