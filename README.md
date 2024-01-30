@@ -35,20 +35,32 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) strided array functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/random-strided
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, bernoulli, beta, betaprime, chi, chisquare, cosine, discreteUniform, exponential, gamma, geometric, invgamma, lognormal, minstd, minstdShuffle, mt19937, normal, poisson, randu, rayleigh, t, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+var ns = require( '@stdlib/random-strided' );
 ```
 
 #### ns
@@ -67,19 +79,26 @@ The namespace contains the following:
 <div class="namespace-toc">
 
 -   <span class="signature">[`arcsine( N, a, sa, b, sb, out, so[, options] )`][@stdlib/random/strided/arcsine]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from an arcsine distribution.</span>
+-   <span class="signature">[`bernoulli( N, p, sp, out, so )`][@stdlib/random/strided/bernoulli]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a Bernoulli distribution.</span>
 -   <span class="signature">[`beta( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/beta]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a beta distribution.</span>
 -   <span class="signature">[`betaprime( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/betaprime]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a beta prime distribution.</span>
+-   <span class="signature">[`chi( N, k, sk, out, so )`][@stdlib/random/strided/chi]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a chi distribution.</span>
+-   <span class="signature">[`chisquare( N, k, sk, out, so )`][@stdlib/random/strided/chisquare]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a chi-square distribution.</span>
 -   <span class="signature">[`cosine( N, mu, sm, s, ss, out, so[, options] )`][@stdlib/random/strided/cosine]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a raised cosine distribution.</span>
 -   <span class="signature">[`discreteUniform( N, a, sa, b, sb, out, so[, options] )`][@stdlib/random/strided/discrete-uniform]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a discrete uniform distribution.</span>
 -   <span class="signature">[`exponential( N, lambda, sl, out, so )`][@stdlib/random/strided/exponential]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from an exponential distribution.</span>
 -   <span class="signature">[`gamma( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/gamma]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a gamma distribution.</span>
+-   <span class="signature">[`geometric( N, p, sp, out, so )`][@stdlib/random/strided/geometric]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a geometric distribution.</span>
 -   <span class="signature">[`invgamma( N, alpha, sa, beta, sb, out, so[, options] )`][@stdlib/random/strided/invgamma]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from an inverse gamma distribution.</span>
 -   <span class="signature">[`lognormal( N, mu, sm, sigma, ss, out, so[, options] )`][@stdlib/random/strided/lognormal]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a lognormal distribution.</span>
 -   <span class="signature">[`minstdShuffle( N, out, so[, options] )`][@stdlib/random/strided/minstd-shuffle]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers generated using a linear congruential pseudorandom number generator (LCG) whose output is shuffled.</span>
 -   <span class="signature">[`minstd( N, out, so[, options] )`][@stdlib/random/strided/minstd]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers generated using a linear congruential pseudorandom number generator (LCG).</span>
 -   <span class="signature">[`mt19937( N, out, so[, options] )`][@stdlib/random/strided/mt19937]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers generated using a 32-bit Mersenne Twister pseudorandom number generator.</span>
 -   <span class="signature">[`normal( N, mu, sm, sigma, ss, out, so[, options] )`][@stdlib/random/strided/normal]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a normal distribution.</span>
+-   <span class="signature">[`poisson( N, lambda, sl, out, so )`][@stdlib/random/strided/poisson]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a Poisson distribution.</span>
 -   <span class="signature">[`randu( N, out, so[, options] )`][@stdlib/random/strided/randu]</span><span class="delimiter">: </span><span class="description">fill a strided array with uniformly distributed pseudorandom numbers between `0` and `1`.</span>
+-   <span class="signature">[`rayleigh( N, sigma, ss, out, so )`][@stdlib/random/strided/rayleigh]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a Rayleigh distribution.</span>
+-   <span class="signature">[`t( N, v, sv, out, so )`][@stdlib/random/strided/t]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a Student's t-distribution.</span>
 -   <span class="signature">[`uniform( N, a, sa, b, sb, out, so[, options] )`][@stdlib/random/strided/uniform]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a continuous uniform distribution.</span>
 -   <span class="signature">[`weibull( N, k, sk, lambda, sl, out, so[, options] )`][@stdlib/random/strided/weibull]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a Weibull distribution.</span>
 
@@ -99,20 +118,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/random-strided' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -136,7 +146,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -201,37 +211,51 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine/tree/esm
+[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine
 
-[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta/tree/esm
+[@stdlib/random/strided/bernoulli]: https://github.com/stdlib-js/random-strided-bernoulli
 
-[@stdlib/random/strided/betaprime]: https://github.com/stdlib-js/random-strided-betaprime/tree/esm
+[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta
 
-[@stdlib/random/strided/cosine]: https://github.com/stdlib-js/random-strided-cosine/tree/esm
+[@stdlib/random/strided/betaprime]: https://github.com/stdlib-js/random-strided-betaprime
 
-[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform/tree/esm
+[@stdlib/random/strided/chi]: https://github.com/stdlib-js/random-strided-chi
 
-[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential/tree/esm
+[@stdlib/random/strided/chisquare]: https://github.com/stdlib-js/random-strided-chisquare
 
-[@stdlib/random/strided/gamma]: https://github.com/stdlib-js/random-strided-gamma/tree/esm
+[@stdlib/random/strided/cosine]: https://github.com/stdlib-js/random-strided-cosine
 
-[@stdlib/random/strided/invgamma]: https://github.com/stdlib-js/random-strided-invgamma/tree/esm
+[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform
 
-[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal/tree/esm
+[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential
 
-[@stdlib/random/strided/minstd-shuffle]: https://github.com/stdlib-js/random-strided-minstd-shuffle/tree/esm
+[@stdlib/random/strided/gamma]: https://github.com/stdlib-js/random-strided-gamma
 
-[@stdlib/random/strided/minstd]: https://github.com/stdlib-js/random-strided-minstd/tree/esm
+[@stdlib/random/strided/geometric]: https://github.com/stdlib-js/random-strided-geometric
 
-[@stdlib/random/strided/mt19937]: https://github.com/stdlib-js/random-strided-mt19937/tree/esm
+[@stdlib/random/strided/invgamma]: https://github.com/stdlib-js/random-strided-invgamma
 
-[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal/tree/esm
+[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal
 
-[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu/tree/esm
+[@stdlib/random/strided/minstd-shuffle]: https://github.com/stdlib-js/random-strided-minstd-shuffle
 
-[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform/tree/esm
+[@stdlib/random/strided/minstd]: https://github.com/stdlib-js/random-strided-minstd
 
-[@stdlib/random/strided/weibull]: https://github.com/stdlib-js/random-strided-weibull/tree/esm
+[@stdlib/random/strided/mt19937]: https://github.com/stdlib-js/random-strided-mt19937
+
+[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal
+
+[@stdlib/random/strided/poisson]: https://github.com/stdlib-js/random-strided-poisson
+
+[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu
+
+[@stdlib/random/strided/rayleigh]: https://github.com/stdlib-js/random-strided-rayleigh
+
+[@stdlib/random/strided/t]: https://github.com/stdlib-js/random-strided-t
+
+[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform
+
+[@stdlib/random/strided/weibull]: https://github.com/stdlib-js/random-strided-weibull
 
 <!-- </toc-links> -->
 
