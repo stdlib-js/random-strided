@@ -4,21 +4,11 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-24)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-strided-tools-unreleased">
-
-#### [@stdlib/random/strided/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/tools)
-
-<details>
+## Unreleased (2025-04-28)
 
 <section class="features">
 
-##### Features
+### Features
 
 -   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259)
 
@@ -28,36 +18,13 @@
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`1001ae3`](https://github.com/stdlib-js/stdlib/commit/1001ae384523b707ca5671a8932acccfb4d69a0c) - remove unused imports
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -77,6 +44,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -85,81 +65,15 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.2.1 (2024-02-25)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-strided-v0.2.1">
-
-#### [@stdlib/random/strided](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb) - update namespace TypeScript declarations [(#1340)](https://github.com/stdlib-js/stdlib/pull/1340)
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases
-
-    -   To migrate, users should consult the relevant namespace documentation and associated commits in order to determine which aliases have been renamed.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-tools-v0.2.1">
-
-#### [@stdlib/random/strided/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/tools)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb) - update namespace TypeScript declarations [(#1340)](https://github.com/stdlib-js/stdlib/pull/1340)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0adcae5`](https://github.com/stdlib-js/stdlib/commit/0adcae51386086e2ef5fb5d78402389cff776deb): rename exported aliases
-
-    -   To migrate, users should consult the relevant namespace documentation and associated commits in order to determine which aliases have been renamed.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -172,18 +86,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -200,6 +102,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -208,140 +122,31 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.2.0 (2024-02-15)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-strided-v0.2.0">
-
-#### [@stdlib/random/strided](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`b620e84`](https://github.com/stdlib-js/stdlib/commit/b620e8408594bf5e78e9f40e62fd3dadc5804459) - add `t` to namespace
+-   [`9197455`](https://github.com/stdlib-js/stdlib/commit/91974551988d767dd7811f10b3891461a8d85639) - add `random/strided/t`
 -   [`b27bb2d`](https://github.com/stdlib-js/stdlib/commit/b27bb2d0f557570756dde2fc371f3e39b0e2fc6d) - add `rayleigh` to namespace
+-   [`3bbc5f8`](https://github.com/stdlib-js/stdlib/commit/3bbc5f8cdf8f7299eb293e0e3901d51880ab990f) - add `random/strided/rayleigh`
 -   [`8ca6251`](https://github.com/stdlib-js/stdlib/commit/8ca62510bd6be636a0e622c9c27e67afa27b4632) - add `poisson` to namespace
+-   [`026c6a4`](https://github.com/stdlib-js/stdlib/commit/026c6a467724ea41b811062e7bb06882b8a96ca6) - add `random/strided/poisson`
 -   [`f0038c4`](https://github.com/stdlib-js/stdlib/commit/f0038c48f0f1b34e9712eef3f7b2ece1de2d97d4) - add `geometric` to namespace
+-   [`c0e5681`](https://github.com/stdlib-js/stdlib/commit/c0e5681289d5f1fd32043c3a663874668c1f0a4f) - add `random/strided/geometric`
 -   [`6c681e9`](https://github.com/stdlib-js/stdlib/commit/6c681e9d7c3940e4925dadef8cebb742a230518a) - add `chisquare` to namespace
--   [`4504d0e`](https://github.com/stdlib-js/stdlib/commit/4504d0e04c33392b41adaba1b4d338c4b62fe47e) - add `chi` to namespace
--   [`2afada7`](https://github.com/stdlib-js/stdlib/commit/2afada793d356fd8f19381129571991ce14f687d) - add `bernoulli` to namespace
--   [`2693e3b`](https://github.com/stdlib-js/stdlib/commit/2693e3b3f0382542a51fc57d78e9ab59e2dc0681) - update namespace TypeScript declarations [(#1287)](https://github.com/stdlib-js/stdlib/pull/1287)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-bernoulli-v0.2.0">
-
-#### [@stdlib/random/strided/bernoulli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/bernoulli)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`33cdaa6`](https://github.com/stdlib-js/stdlib/commit/33cdaa6d5444b196376584311a40f761c7c461b6) - add `random/strided/bernoulli`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-chi-v0.2.0">
-
-#### [@stdlib/random/strided/chi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/chi)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`44c6019`](https://github.com/stdlib-js/stdlib/commit/44c6019287905f969fee74dcfd2a001c298b5834) - add `random/strided/chi`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#885](https://github.com/stdlib-js/stdlib/issues/885)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-chisquare-v0.2.0">
-
-#### [@stdlib/random/strided/chisquare](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/chisquare)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`94d1a50`](https://github.com/stdlib-js/stdlib/commit/94d1a50b7a6874fb2d704250dd6d4e2cd4f867db) - add `random/strided/chisquare`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#886](https://github.com/stdlib-js/stdlib/issues/886)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-exponential-v0.2.0">
-
-#### [@stdlib/random/strided/exponential](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/exponential)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`4504d0e`](https://github.com/stdlib-js/stdlib/commit/4504d0e04c33392b41adaba1b4d338c4b62fe47e) - add `chi` to namespace
+-   [`44c6019`](https://github.com/stdlib-js/stdlib/commit/44c6019287905f969fee74dcfd2a001c298b5834) - add `random/strided/chi`
+-   [`2afada7`](https://github.com/stdlib-js/stdlib/commit/2afada793d356fd8f19381129571991ce14f687d) - add `bernoulli` to namespace
+-   [`33cdaa6`](https://github.com/stdlib-js/stdlib/commit/33cdaa6d5444b196376584311a40f761c7c461b6) - add `random/strided/bernoulli`
+-   [`400646c`](https://github.com/stdlib-js/stdlib/commit/400646c1420098c0415ab63b00c14f37bd0163d7) - add `ternaryFactory` to namespace
+-   [`6325b6a`](https://github.com/stdlib-js/stdlib/commit/6325b6a830ea4b78780366d6fd2870acb84ea0a5) - add `random/strided/tools/ternary-factory`
+-   [`1db2872`](https://github.com/stdlib-js/stdlib/commit/1db2872f8fc0d16b9a0c164605a7ebe3c4a243c2) - add `random/strided/tools` namespace package
+-   [`c152cfa`](https://github.com/stdlib-js/stdlib/commit/c152cfa0019ecfd5eb7d2a6052084524b712d376) - add `random/strided/tools/binary-factory`
+-   [`2693e3b`](https://github.com/stdlib-js/stdlib/commit/2693e3b3f0382542a51fc57d78e9ab59e2dc0681) - update namespace TypeScript declarations [(#1287)](https://github.com/stdlib-js/stdlib/pull/1287)
 -   [`c3079d2`](https://github.com/stdlib-js/stdlib/commit/c3079d227d7ab83141bc51c42bcf7501766baa86) - add `factory` method and remove options support
+-   [`dac0583`](https://github.com/stdlib-js/stdlib/commit/dac0583658491ab15878117caca2a3b337d07cc1) - add `random/strided/tools/unary-factory`
 
 </section>
 
@@ -349,245 +154,13 @@ This release closes the following issue:
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`c89624e`](https://github.com/stdlib-js/stdlib/commit/c89624e9cf1cf779ac516881e224ddeb1e003f14) - improve type specificity
 
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`c3079d2`](https://github.com/stdlib-js/stdlib/commit/c3079d227d7ab83141bc51c42bcf7501766baa86): use `factory` method for seeding PRNG
-
-    -   To migrate, users should use the `factory` method to create a
-        seeded PRNG. Previously, users could provide options directly to
-        the main export and `ndarray` method. This capability has been
-        replaced with a `factory` method. This change aligns with
-        conventions found elsewhere in the project where the main export
-        uses an unseeded PRNG, and, in order to create a seeded variant,
-        one needs to use a factory function.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-geometric-v0.2.0">
-
-#### [@stdlib/random/strided/geometric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/geometric)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c0e5681`](https://github.com/stdlib-js/stdlib/commit/c0e5681289d5f1fd32043c3a663874668c1f0a4f) - add `random/strided/geometric`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#887](https://github.com/stdlib-js/stdlib/issues/887)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-poisson-v0.2.0">
-
-#### [@stdlib/random/strided/poisson](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/poisson)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`026c6a4`](https://github.com/stdlib-js/stdlib/commit/026c6a467724ea41b811062e7bb06882b8a96ca6) - add `random/strided/poisson`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#888](https://github.com/stdlib-js/stdlib/issues/888)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-rayleigh-v0.2.0">
-
-#### [@stdlib/random/strided/rayleigh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/rayleigh)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3bbc5f8`](https://github.com/stdlib-js/stdlib/commit/3bbc5f8cdf8f7299eb293e0e3901d51880ab990f) - add `random/strided/rayleigh`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#889](https://github.com/stdlib-js/stdlib/issues/889)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-t-v0.2.0">
-
-#### [@stdlib/random/strided/t](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/t)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9197455`](https://github.com/stdlib-js/stdlib/commit/91974551988d767dd7811f10b3891461a8d85639) - add `random/strided/t`
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#890](https://github.com/stdlib-js/stdlib/issues/890)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-tools-v0.2.0">
-
-#### [@stdlib/random/strided/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/tools)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`400646c`](https://github.com/stdlib-js/stdlib/commit/400646c1420098c0415ab63b00c14f37bd0163d7) - add `ternaryFactory` to namespace
--   [`1db2872`](https://github.com/stdlib-js/stdlib/commit/1db2872f8fc0d16b9a0c164605a7ebe3c4a243c2) - add `random/strided/tools` namespace package
--   [`c152cfa`](https://github.com/stdlib-js/stdlib/commit/c152cfa0019ecfd5eb7d2a6052084524b712d376) - add `random/strided/tools/binary-factory`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-tools-ternary-factory-v0.2.0">
-
-#### [@stdlib/random/strided/tools/ternary-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/tools/ternary-factory)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`6325b6a`](https://github.com/stdlib-js/stdlib/commit/6325b6a830ea4b78780366d6fd2870acb84ea0a5) - add `random/strided/tools/ternary-factory`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-tools-unary-factory-v0.2.0">
-
-#### [@stdlib/random/strided/tools/unary-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/tools/unary-factory)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`dac0583`](https://github.com/stdlib-js/stdlib/commit/dac0583658491ab15878117caca2a3b337d07cc1) - add `random/strided/tools/unary-factory`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -618,19 +191,6 @@ A total of 6 issues were closed in this release:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -704,420 +264,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
-</section>
-
-<!-- /.release -->
-
-<section class="release" id="v0.1.0">
-
-## 0.1.0 (2023-09-24)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-strided-v0.1.0">
-
-#### [@stdlib/random/strided](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-arcsine-v0.1.0">
-
-#### [@stdlib/random/strided/arcsine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/arcsine)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-beta-v0.1.0">
-
-#### [@stdlib/random/strided/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/beta)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-betaprime-v0.1.0">
-
-#### [@stdlib/random/strided/betaprime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/betaprime)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-cosine-v0.1.0">
-
-#### [@stdlib/random/strided/cosine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/cosine)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-discrete-uniform-v0.1.0">
-
-#### [@stdlib/random/strided/discrete-uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/discrete-uniform)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-exponential-v0.1.0">
-
-#### [@stdlib/random/strided/exponential](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/exponential)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-gamma-v0.1.0">
-
-#### [@stdlib/random/strided/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/gamma)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-invgamma-v0.1.0">
-
-#### [@stdlib/random/strided/invgamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/invgamma)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-lognormal-v0.1.0">
-
-#### [@stdlib/random/strided/lognormal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/lognormal)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-minstd-v0.1.0">
-
-#### [@stdlib/random/strided/minstd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/minstd)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-minstd-shuffle-v0.1.0">
-
-#### [@stdlib/random/strided/minstd-shuffle](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/minstd-shuffle)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-mt19937-v0.1.0">
-
-#### [@stdlib/random/strided/mt19937](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/mt19937)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-normal-v0.1.0">
-
-#### [@stdlib/random/strided/normal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/normal)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-randu-v0.1.0">
-
-#### [@stdlib/random/strided/randu](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/randu)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-uniform-v0.1.0">
-
-#### [@stdlib/random/strided/uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/uniform)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-weibull-v0.1.0">
-
-#### [@stdlib/random/strided/weibull](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/weibull)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="breaking-changes">
-
-### BREAKING CHANGES
-
--   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
 <section class="contributors">
 
 ### Contributors
@@ -1130,6 +276,46 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-24)
+
+<section class="features">
+
+### Features
+
+-   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`c992ceb`](https://github.com/stdlib-js/stdlib/commit/c992cebaa3be5d820f9be8d276d9618b32709dca) - update import path for `Collection` type definition
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`efe050d`](https://github.com/stdlib-js/stdlib/commit/efe050dbf3d17bd6929da255fa079c0324afc213): update minimum TypeScript version to 4.1
+
+    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="commits">
 
@@ -1146,6 +332,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -1154,595 +353,57 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.0.1 (2023-07-31)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="random-strided-v0.0.1">
-
-#### [@stdlib/random/strided](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`421e1ae`](https://github.com/stdlib-js/stdlib/commit/421e1ae86e3d7fb31d156af9cd522303a6645220) - update namespace TypeScript declarations [(#1044)](https://github.com/stdlib-js/stdlib/pull/1044)
 -   [`50ba55b`](https://github.com/stdlib-js/stdlib/commit/50ba55b207fdd8ee04ca2fdc4c040e8852f335dd) - add `weibull` to namespace
+-   [`82f6933`](https://github.com/stdlib-js/stdlib/commit/82f693348f49cba1b1608fdf3303328780eb723d) - refactor declarations to use generics
+-   [`d63cef6`](https://github.com/stdlib-js/stdlib/commit/d63cef6465c789ca36b09fa8c3494662caa2562e) - refactor declarations to use generics
+-   [`948fb07`](https://github.com/stdlib-js/stdlib/commit/948fb07c08b1015177635a320bfe2ab9a500dbb0) - refactor declarations to use generics
+-   [`1faa20f`](https://github.com/stdlib-js/stdlib/commit/1faa20fe537a8864daa8b8df10f0a031526d8b54) - refactor declarations to use generics
+-   [`1971510`](https://github.com/stdlib-js/stdlib/commit/197151046e828736cd6467c68eaf5fec5b4ea691) - refactor declarations to use generics
+-   [`1f54cce`](https://github.com/stdlib-js/stdlib/commit/1f54cce45b10fa423748c1780df8255ecac02912) - refactor declarations to use generics
+-   [`20831a2`](https://github.com/stdlib-js/stdlib/commit/20831a2ea5a99ac147441dd2256ed4ac5ee243ab) - refactor declarations to use generics
+-   [`4ae8e28`](https://github.com/stdlib-js/stdlib/commit/4ae8e283ce5ab17166a4951dddb8c2f455db107e) - refactor declarations to use generics
+-   [`5cd653f`](https://github.com/stdlib-js/stdlib/commit/5cd653f21708ab5a25a06ca30c479857b426b7ce) - refactor declarations to use generics
+-   [`75d73c4`](https://github.com/stdlib-js/stdlib/commit/75d73c48a07d6ed476a4650e2b4835d14dee1976) - refactor declarations to use generics
+-   [`4f4c99a`](https://github.com/stdlib-js/stdlib/commit/4f4c99a4f70902820a07ac28faf3bb9ee6fd16a6) - refactor declarations to use generics
+-   [`40b1218`](https://github.com/stdlib-js/stdlib/commit/40b121811505243d58b0fddedf25aa146d2a9ed8) - refactor declarations to use generics
+-   [`ebac539`](https://github.com/stdlib-js/stdlib/commit/ebac539f0c8f6e3a39d4b6c61104047c234c7728) - refactor declarations to use generics
+-   [`41eb26b`](https://github.com/stdlib-js/stdlib/commit/41eb26b06033784dc8d5351545ccd58a8d8ec623) - refactor declarations to use generics
+-   [`f1786aa`](https://github.com/stdlib-js/stdlib/commit/f1786aa0519a3e93cde870c972c15be67c2ab9e2) - refactor declarations to use generics
+-   [`7373470`](https://github.com/stdlib-js/stdlib/commit/73734702fc361f345475020b24a95952dbe5a33d) - increase minimum TypeScript version
+-   [`aff558d`](https://github.com/stdlib-js/stdlib/commit/aff558dd62e730c9705e175e59ac466575f775ef) - refactor declarations to use generics
+-   [`ca77f96`](https://github.com/stdlib-js/stdlib/commit/ca77f9674caf1c7c40da1dcff656f8ded55d927d) - add strided interface for Weibull distribution [(#1012)](https://github.com/stdlib-js/stdlib/pull/1012)
 -   [`e8775fc`](https://github.com/stdlib-js/stdlib/commit/e8775fcbe3617b9013bd1cea74d7f70aa2669ab4) - update namespace TypeScript declarations [(#951)](https://github.com/stdlib-js/stdlib/pull/951)
 -   [`d115362`](https://github.com/stdlib-js/stdlib/commit/d115362a80635761a217131b678abc7c21d32f49) - update namespace table of contents [(#933)](https://github.com/stdlib-js/stdlib/pull/933)
 -   [`154b37b`](https://github.com/stdlib-js/stdlib/commit/154b37be8e4850cc50713870207c62e305a62279) - add `gamma`, `invgamma`, and `cosine` to namespace
+-   [`d315362`](https://github.com/stdlib-js/stdlib/commit/d315362c4d6041f60641d6130ecf2143013dc911) - add interface for filling strided array with cosine random numbers
+-   [`a2e039c`](https://github.com/stdlib-js/stdlib/commit/a2e039c465b5bab7aab4a6b8d69bb1207c6fd519) - add interface for filling strided array with inverse gamma random numbers
+-   [`ddf4788`](https://github.com/stdlib-js/stdlib/commit/ddf47885bf11fa06a123d57f425c81aebe3a329d) - add interface for filling strided array with gamma random numbers
 -   [`0b8e8d9`](https://github.com/stdlib-js/stdlib/commit/0b8e8d96449b3c5fd2400942107d511b6462e78b) - add `minstdShuffle` to namespace
+-   [`8bf72f5`](https://github.com/stdlib-js/stdlib/commit/8bf72f5c0544ec4caf449ecd8acfe50776048d13) - add strided interface to fill an array with pseudorandom numbers using an LCG whose output is shuffled
 -   [`90c53b0`](https://github.com/stdlib-js/stdlib/commit/90c53b0fb40495de722daba3d8d9ea4412fa51fe) - update namespace TypeScript declarations [(#923)](https://github.com/stdlib-js/stdlib/pull/923)
 -   [`a1fd583`](https://github.com/stdlib-js/stdlib/commit/a1fd5839885672378e0a2774019b2710ae7b5fcf) - add `betaprime` to namespace
+-   [`059038f`](https://github.com/stdlib-js/stdlib/commit/059038feb604c84bc518ff4063d69c32e3975bb7) - add strided interface for filling a strided array with pseudorandom numbers drawn from a beta prime distribution [(#918)](https://github.com/stdlib-js/stdlib/pull/918)
 -   [`00e8da0`](https://github.com/stdlib-js/stdlib/commit/00e8da0854d472abef0c22be7828084845f90343) - update namespace TypeScript declarations [(#919)](https://github.com/stdlib-js/stdlib/pull/919)
 
 </section>
 
 <!-- /.features -->
 
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-arcsine-v0.0.1">
-
-#### [@stdlib/random/strided/arcsine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/arcsine)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`7373470`](https://github.com/stdlib-js/stdlib/commit/73734702fc361f345475020b24a95952dbe5a33d) - increase minimum TypeScript version
--   [`aff558d`](https://github.com/stdlib-js/stdlib/commit/aff558dd62e730c9705e175e59ac466575f775ef) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
+-   [`d59560c`](https://github.com/stdlib-js/stdlib/commit/d59560ca7fe013da7abc3e668fb4ffd4c215a9ba) - add missing default type
 -   [`a55ea84`](https://github.com/stdlib-js/stdlib/commit/a55ea84c29eb7a2a846204d66f49ed72237a9f39) - add missing default type
 
 </section>
 
 <!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`7373470`](https://github.com/stdlib-js/stdlib/commit/73734702fc361f345475020b24a95952dbe5a33d): increase minimum TypeScript version
--   [`aff558d`](https://github.com/stdlib-js/stdlib/commit/aff558dd62e730c9705e175e59ac466575f775ef): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-beta-v0.0.1">
-
-#### [@stdlib/random/strided/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/beta)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f1786aa`](https://github.com/stdlib-js/stdlib/commit/f1786aa0519a3e93cde870c972c15be67c2ab9e2) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`d59560c`](https://github.com/stdlib-js/stdlib/commit/d59560ca7fe013da7abc3e668fb4ffd4c215a9ba) - add missing default type
-
-</section>
-
-<!-- /.bug-fixes -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`f1786aa`](https://github.com/stdlib-js/stdlib/commit/f1786aa0519a3e93cde870c972c15be67c2ab9e2): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-betaprime-v0.0.1">
-
-#### [@stdlib/random/strided/betaprime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/betaprime)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`41eb26b`](https://github.com/stdlib-js/stdlib/commit/41eb26b06033784dc8d5351545ccd58a8d8ec623) - refactor declarations to use generics
--   [`059038f`](https://github.com/stdlib-js/stdlib/commit/059038feb604c84bc518ff4063d69c32e3975bb7) - add strided interface for filling a strided array with pseudorandom numbers drawn from a beta prime distribution [(#918)](https://github.com/stdlib-js/stdlib/pull/918)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`41eb26b`](https://github.com/stdlib-js/stdlib/commit/41eb26b06033784dc8d5351545ccd58a8d8ec623): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#877](https://github.com/stdlib-js/stdlib/issues/877)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-cosine-v0.0.1">
-
-#### [@stdlib/random/strided/cosine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/cosine)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ebac539`](https://github.com/stdlib-js/stdlib/commit/ebac539f0c8f6e3a39d4b6c61104047c234c7728) - refactor declarations to use generics
--   [`d315362`](https://github.com/stdlib-js/stdlib/commit/d315362c4d6041f60641d6130ecf2143013dc911) - add interface for filling strided array with cosine random numbers
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ebac539`](https://github.com/stdlib-js/stdlib/commit/ebac539f0c8f6e3a39d4b6c61104047c234c7728): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-discrete-uniform-v0.0.1">
-
-#### [@stdlib/random/strided/discrete-uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/discrete-uniform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`40b1218`](https://github.com/stdlib-js/stdlib/commit/40b121811505243d58b0fddedf25aa146d2a9ed8) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`40b1218`](https://github.com/stdlib-js/stdlib/commit/40b121811505243d58b0fddedf25aa146d2a9ed8): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-exponential-v0.0.1">
-
-#### [@stdlib/random/strided/exponential](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/exponential)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`4f4c99a`](https://github.com/stdlib-js/stdlib/commit/4f4c99a4f70902820a07ac28faf3bb9ee6fd16a6) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`4f4c99a`](https://github.com/stdlib-js/stdlib/commit/4f4c99a4f70902820a07ac28faf3bb9ee6fd16a6): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-gamma-v0.0.1">
-
-#### [@stdlib/random/strided/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/gamma)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`75d73c4`](https://github.com/stdlib-js/stdlib/commit/75d73c48a07d6ed476a4650e2b4835d14dee1976) - refactor declarations to use generics
--   [`ddf4788`](https://github.com/stdlib-js/stdlib/commit/ddf47885bf11fa06a123d57f425c81aebe3a329d) - add interface for filling strided array with gamma random numbers
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`75d73c4`](https://github.com/stdlib-js/stdlib/commit/75d73c48a07d6ed476a4650e2b4835d14dee1976): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-invgamma-v0.0.1">
-
-#### [@stdlib/random/strided/invgamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/invgamma)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`5cd653f`](https://github.com/stdlib-js/stdlib/commit/5cd653f21708ab5a25a06ca30c479857b426b7ce) - refactor declarations to use generics
--   [`a2e039c`](https://github.com/stdlib-js/stdlib/commit/a2e039c465b5bab7aab4a6b8d69bb1207c6fd519) - add interface for filling strided array with inverse gamma random numbers
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`5cd653f`](https://github.com/stdlib-js/stdlib/commit/5cd653f21708ab5a25a06ca30c479857b426b7ce): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-lognormal-v0.0.1">
-
-#### [@stdlib/random/strided/lognormal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/lognormal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`4ae8e28`](https://github.com/stdlib-js/stdlib/commit/4ae8e283ce5ab17166a4951dddb8c2f455db107e) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`4ae8e28`](https://github.com/stdlib-js/stdlib/commit/4ae8e283ce5ab17166a4951dddb8c2f455db107e): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-minstd-v0.0.1">
-
-#### [@stdlib/random/strided/minstd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/minstd)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`20831a2`](https://github.com/stdlib-js/stdlib/commit/20831a2ea5a99ac147441dd2256ed4ac5ee243ab) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`20831a2`](https://github.com/stdlib-js/stdlib/commit/20831a2ea5a99ac147441dd2256ed4ac5ee243ab): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-minstd-shuffle-v0.0.1">
-
-#### [@stdlib/random/strided/minstd-shuffle](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/minstd-shuffle)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`1f54cce`](https://github.com/stdlib-js/stdlib/commit/1f54cce45b10fa423748c1780df8255ecac02912) - refactor declarations to use generics
--   [`8bf72f5`](https://github.com/stdlib-js/stdlib/commit/8bf72f5c0544ec4caf449ecd8acfe50776048d13) - add strided interface to fill an array with pseudorandom numbers using an LCG whose output is shuffled
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`1f54cce`](https://github.com/stdlib-js/stdlib/commit/1f54cce45b10fa423748c1780df8255ecac02912): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-mt19937-v0.0.1">
-
-#### [@stdlib/random/strided/mt19937](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/mt19937)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`1971510`](https://github.com/stdlib-js/stdlib/commit/197151046e828736cd6467c68eaf5fec5b4ea691) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`1971510`](https://github.com/stdlib-js/stdlib/commit/197151046e828736cd6467c68eaf5fec5b4ea691): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-normal-v0.0.1">
-
-#### [@stdlib/random/strided/normal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/normal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`1faa20f`](https://github.com/stdlib-js/stdlib/commit/1faa20fe537a8864daa8b8df10f0a031526d8b54) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`1faa20f`](https://github.com/stdlib-js/stdlib/commit/1faa20fe537a8864daa8b8df10f0a031526d8b54): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-randu-v0.0.1">
-
-#### [@stdlib/random/strided/randu](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/randu)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`948fb07`](https://github.com/stdlib-js/stdlib/commit/948fb07c08b1015177635a320bfe2ab9a500dbb0) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`948fb07`](https://github.com/stdlib-js/stdlib/commit/948fb07c08b1015177635a320bfe2ab9a500dbb0): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-uniform-v0.0.1">
-
-#### [@stdlib/random/strided/uniform](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/uniform)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`d63cef6`](https://github.com/stdlib-js/stdlib/commit/d63cef6465c789ca36b09fa8c3494662caa2562e) - refactor declarations to use generics
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`d63cef6`](https://github.com/stdlib-js/stdlib/commit/d63cef6465c789ca36b09fa8c3494662caa2562e): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="random-strided-weibull-v0.0.1">
-
-#### [@stdlib/random/strided/weibull](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/strided/weibull)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`82f6933`](https://github.com/stdlib-js/stdlib/commit/82f693348f49cba1b1608fdf3303328780eb723d) - refactor declarations to use generics
--   [`ca77f96`](https://github.com/stdlib-js/stdlib/commit/ca77f9674caf1c7c40da1dcff656f8ded55d927d) - add strided interface for Weibull distribution [(#1012)](https://github.com/stdlib-js/stdlib/pull/1012)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`82f6933`](https://github.com/stdlib-js/stdlib/commit/82f693348f49cba1b1608fdf3303328780eb723d): refactor declarations to use generics
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1781,20 +442,6 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 3 people contributed to this release. Thank you to the following contributors:
-
--   Amit Jimiwal
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1853,6 +500,20 @@ A total of 3 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Amit Jimiwal
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
