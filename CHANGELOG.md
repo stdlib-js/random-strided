@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`2ae99ef`](https://github.com/stdlib-js/stdlib/commit/2ae99ef57a08b712bbe90341063df30854950e43) - **docs:** fix usage comments in scaffold scripts and indentation _(by Philipp Burckhardt)_
 -   [`7cd701d`](https://github.com/stdlib-js/stdlib/commit/7cd701dc8bcd6c438d99bf1c351ef5a765e0e699) - **chore:** update package meta data [(#9404)](https://github.com/stdlib-js/stdlib/pull/9404) _(by stdlib-bot)_
 -   [`e369fa9`](https://github.com/stdlib-js/stdlib/commit/e369fa97fc9eafaedba962850f61b2bb9882bac6) - **build:** remove explicit dependence on `_tools` directory _(by Athan Reines)_
 -   [`3dda71a`](https://github.com/stdlib-js/stdlib/commit/3dda71a348148b38395cec9d523d88ddd62356ff) - **chore:** move scaffold to `random/strided` namespace _(by Athan Reines)_
