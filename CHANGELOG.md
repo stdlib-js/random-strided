@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-12-28)
 
 <section class="features">
 
@@ -32,6 +32,14 @@
 
 <details>
 
+-   [`7cd701d`](https://github.com/stdlib-js/stdlib/commit/7cd701dc8bcd6c438d99bf1c351ef5a765e0e699) - **chore:** update package meta data [(#9404)](https://github.com/stdlib-js/stdlib/pull/9404) _(by stdlib-bot)_
+-   [`e369fa9`](https://github.com/stdlib-js/stdlib/commit/e369fa97fc9eafaedba962850f61b2bb9882bac6) - **build:** remove explicit dependence on `_tools` directory _(by Athan Reines)_
+-   [`3dda71a`](https://github.com/stdlib-js/stdlib/commit/3dda71a348148b38395cec9d523d88ddd62356ff) - **chore:** move scaffold to `random/strided` namespace _(by Athan Reines)_
+-   [`14fbe2a`](https://github.com/stdlib-js/stdlib/commit/14fbe2a5ced542c4183b6cae8a5d369462a6023a) - **docs:** clean-up TypeScript declarations example code _(by Philipp Burckhardt)_
+-   [`21ec206`](https://github.com/stdlib-js/stdlib/commit/21ec2060d7496322ce32d4f984230d0c131974cc) - **docs:** clean-up example code _(by Philipp Burckhardt)_
+-   [`8a6dbd7`](https://github.com/stdlib-js/stdlib/commit/8a6dbd7bf692bcd9ce166a7370eda0a7410da3b0) - **docs:** fix example code and return annotation values _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`54da286`](https://github.com/stdlib-js/stdlib/commit/54da28610f5ee6b2aa181addb1775d32f79043ee) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`cf7d38a`](https://github.com/stdlib-js/stdlib/commit/cf7d38ae3e7bce92cf47778f7b1c3da731121d77) - **docs:** update related packages sections [(#3527)](https://github.com/stdlib-js/stdlib/pull/3527) _(by stdlib-bot)_
 -   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - **feat:** update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`1001ae3`](https://github.com/stdlib-js/stdlib/commit/1001ae384523b707ca5671a8932acccfb4d69a0c) - **fix:** remove unused imports _(by Athan Reines)_
