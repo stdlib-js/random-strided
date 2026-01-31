@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-strided",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Pseudorandom number generator strided array functions.",
   "license": "Apache-2.0",
   "author": {
@@ -81,7 +81,7 @@
     "@stdlib/console-log-each": "^0.2.2",
     "@stdlib/fs-exists": "^0.2.2",
     "@stdlib/fs-read-dir": "^0.2.2",
-    "@stdlib/fs-read-json": "^0.2.2",
+    "@stdlib/fs-read-json": "^0.2.3",
     "@stdlib/fs-resolve-parent-path": "^0.2.2",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
@@ -103,7 +103,7 @@
     "@stdlib/random-base-lognormal": "^0.2.1",
     "@stdlib/random-base-minstd": "^0.2.1",
     "@stdlib/random-base-minstd-shuffle": "^0.2.1",
-    "@stdlib/random-base-mt19937": "^0.2.1",
+    "@stdlib/random-base-mt19937": "^0.2.2",
     "@stdlib/random-base-normal": "^0.2.1",
     "@stdlib/random-base-poisson": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
