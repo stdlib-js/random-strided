@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-strided/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, bernoulli, beta, betaprime, chi, chisquare, cosine, discreteUniform, exponential, gamma, geometric, invgamma, lognormal, minstd, minstdShuffle, mt19937, normal, poisson, randu, rayleigh, t, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@v0.3.1-deno/mod.js';
+import { arcsine, bernoulli, beta, betaprime, chi, chisquare, cosine, discreteUniform, exponential, gamma, geometric, invgamma, lognormal, minstd, minstdShuffle, mt19937, normal, poisson, randu, rayleigh, t, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@deno/mod.js';
 ```
 
 #### ns
@@ -108,7 +113,7 @@ The namespace contains the following:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@v0.3.1-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
