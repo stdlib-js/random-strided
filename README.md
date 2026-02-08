@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, bernoulli, beta, betaprime, chi, chisquare, cosine, discreteUniform, exponential, gamma, geometric, invgamma, lognormal, minstd, minstdShuffle, mt19937, normal, poisson, randu, rayleigh, t, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+import { arcsine, bernoulli, beta, betaprime, chi, chisquare, cosine, discreteUniform, exponential, gamma, geometric, invgamma, lognormal, minstd, minstdShuffle, mt19937, normal, poisson, randu, rayleigh, t, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@v0.3.1-esm/index.mjs';
 ```
 
 #### ns
@@ -113,7 +113,7 @@ The namespace contains the following:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@v0.3.1-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
