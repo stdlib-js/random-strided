@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-19)
+## Unreleased (2026-06-29)
 
 <section class="commits">
 
@@ -12,6 +12,15 @@
 
 <details>
 
+-   [`1955c06`](https://github.com/stdlib-js/stdlib/commit/1955c06eb7a27304cc92baf595545b877aea9edb) - **docs:** update related packages sections [(#12978)](https://github.com/stdlib-js/stdlib/pull/12978) _(by stdlib-bot, Athan Reines)_
+-   [`730718e`](https://github.com/stdlib-js/stdlib/commit/730718ee9f523320a65d0a2bb765eaa225fbcabd) - **docs:** update related packages sections [(#12832)](https://github.com/stdlib-js/stdlib/pull/12832) _(by stdlib-bot)_
+-   [`9d35248`](https://github.com/stdlib-js/stdlib/commit/9d3524866ec6833c164e5f56bc6197d63faafb48) - **docs:** update related packages sections [(#12386)](https://github.com/stdlib-js/stdlib/pull/12386) _(by stdlib-bot)_
+-   [`754c21e`](https://github.com/stdlib-js/stdlib/commit/754c21edddd352771af86a91feda14240baddc75) - **docs:** update related packages sections [(#12360)](https://github.com/stdlib-js/stdlib/pull/12360) _(by stdlib-bot, Athan Reines)_
+-   [`731db49`](https://github.com/stdlib-js/stdlib/commit/731db49a52174844636560f8d39b06f4040140f3) - **docs:** update related packages sections [(#12269)](https://github.com/stdlib-js/stdlib/pull/12269) _(by stdlib-bot)_
+-   [`da0bf4e`](https://github.com/stdlib-js/stdlib/commit/da0bf4e0579edef12373a0e3c4eadbcbf402e192) - **docs:** update related packages sections [(#12237)](https://github.com/stdlib-js/stdlib/pull/12237) _(by stdlib-bot, Athan Reines)_
+-   [`008cf16`](https://github.com/stdlib-js/stdlib/commit/008cf164e7790c1e318752b409b86100d91e1f69) - **docs:** update related packages sections [(#12223)](https://github.com/stdlib-js/stdlib/pull/12223) _(by stdlib-bot)_
+-   [`2dd6ec1`](https://github.com/stdlib-js/stdlib/commit/2dd6ec1cc545dd4dd8e27131935c070e961209cb) - **docs:** update related packages sections [(#12211)](https://github.com/stdlib-js/stdlib/pull/12211) _(by stdlib-bot)_
+-   [`299fbc8`](https://github.com/stdlib-js/stdlib/commit/299fbc897aedf8a25da1ff9ac3ea15e93782dc20) - **docs:** update related packages sections [(#12196)](https://github.com/stdlib-js/stdlib/pull/12196) _(by stdlib-bot)_
 -   [`9e72d5a`](https://github.com/stdlib-js/stdlib/commit/9e72d5af562d400e9bd580faa9f80ed2ebc6aa4c) - **docs:** update related packages sections [(#12185)](https://github.com/stdlib-js/stdlib/pull/12185) _(by stdlib-bot)_
 -   [`8ef0632`](https://github.com/stdlib-js/stdlib/commit/8ef06328d08c865d85bbe52bf72783bc041870f0) - **docs:** update related packages sections [(#12089)](https://github.com/stdlib-js/stdlib/pull/12089) _(by stdlib-bot, Athan Reines)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
