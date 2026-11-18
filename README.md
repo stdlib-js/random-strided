@@ -35,32 +35,38 @@ limitations under the License.
 
 > Pseudorandom number generator (PRNG) strided array functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/random-strided
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var ns = require( '@stdlib/random-strided' );
+ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var ns = require( 'path/to/vendor/umd/random-strided/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ns;
+})();
+</script>
 ```
 
 #### ns
@@ -118,11 +124,21 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/random-strided' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( ns ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -211,51 +227,51 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine
+[@stdlib/random/strided/arcsine]: https://github.com/stdlib-js/random-strided-arcsine/tree/umd
 
-[@stdlib/random/strided/bernoulli]: https://github.com/stdlib-js/random-strided-bernoulli
+[@stdlib/random/strided/bernoulli]: https://github.com/stdlib-js/random-strided-bernoulli/tree/umd
 
-[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta
+[@stdlib/random/strided/beta]: https://github.com/stdlib-js/random-strided-beta/tree/umd
 
-[@stdlib/random/strided/betaprime]: https://github.com/stdlib-js/random-strided-betaprime
+[@stdlib/random/strided/betaprime]: https://github.com/stdlib-js/random-strided-betaprime/tree/umd
 
-[@stdlib/random/strided/chi]: https://github.com/stdlib-js/random-strided-chi
+[@stdlib/random/strided/chi]: https://github.com/stdlib-js/random-strided-chi/tree/umd
 
-[@stdlib/random/strided/chisquare]: https://github.com/stdlib-js/random-strided-chisquare
+[@stdlib/random/strided/chisquare]: https://github.com/stdlib-js/random-strided-chisquare/tree/umd
 
-[@stdlib/random/strided/cosine]: https://github.com/stdlib-js/random-strided-cosine
+[@stdlib/random/strided/cosine]: https://github.com/stdlib-js/random-strided-cosine/tree/umd
 
-[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform
+[@stdlib/random/strided/discrete-uniform]: https://github.com/stdlib-js/random-strided-discrete-uniform/tree/umd
 
-[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential
+[@stdlib/random/strided/exponential]: https://github.com/stdlib-js/random-strided-exponential/tree/umd
 
-[@stdlib/random/strided/gamma]: https://github.com/stdlib-js/random-strided-gamma
+[@stdlib/random/strided/gamma]: https://github.com/stdlib-js/random-strided-gamma/tree/umd
 
-[@stdlib/random/strided/geometric]: https://github.com/stdlib-js/random-strided-geometric
+[@stdlib/random/strided/geometric]: https://github.com/stdlib-js/random-strided-geometric/tree/umd
 
-[@stdlib/random/strided/invgamma]: https://github.com/stdlib-js/random-strided-invgamma
+[@stdlib/random/strided/invgamma]: https://github.com/stdlib-js/random-strided-invgamma/tree/umd
 
-[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal
+[@stdlib/random/strided/lognormal]: https://github.com/stdlib-js/random-strided-lognormal/tree/umd
 
-[@stdlib/random/strided/minstd-shuffle]: https://github.com/stdlib-js/random-strided-minstd-shuffle
+[@stdlib/random/strided/minstd-shuffle]: https://github.com/stdlib-js/random-strided-minstd-shuffle/tree/umd
 
-[@stdlib/random/strided/minstd]: https://github.com/stdlib-js/random-strided-minstd
+[@stdlib/random/strided/minstd]: https://github.com/stdlib-js/random-strided-minstd/tree/umd
 
-[@stdlib/random/strided/mt19937]: https://github.com/stdlib-js/random-strided-mt19937
+[@stdlib/random/strided/mt19937]: https://github.com/stdlib-js/random-strided-mt19937/tree/umd
 
-[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal
+[@stdlib/random/strided/normal]: https://github.com/stdlib-js/random-strided-normal/tree/umd
 
-[@stdlib/random/strided/poisson]: https://github.com/stdlib-js/random-strided-poisson
+[@stdlib/random/strided/poisson]: https://github.com/stdlib-js/random-strided-poisson/tree/umd
 
-[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu
+[@stdlib/random/strided/randu]: https://github.com/stdlib-js/random-strided-randu/tree/umd
 
-[@stdlib/random/strided/rayleigh]: https://github.com/stdlib-js/random-strided-rayleigh
+[@stdlib/random/strided/rayleigh]: https://github.com/stdlib-js/random-strided-rayleigh/tree/umd
 
-[@stdlib/random/strided/t]: https://github.com/stdlib-js/random-strided-t
+[@stdlib/random/strided/t]: https://github.com/stdlib-js/random-strided-t/tree/umd
 
-[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform
+[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform/tree/umd
 
-[@stdlib/random/strided/weibull]: https://github.com/stdlib-js/random-strided-weibull
+[@stdlib/random/strided/weibull]: https://github.com/stdlib-js/random-strided-weibull/tree/umd
 
 <!-- </toc-links> -->
 
