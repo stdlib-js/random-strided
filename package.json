@@ -77,7 +77,7 @@
     "@stdlib/assert-is-method-in": "^0.2.3",
     "@stdlib/assert-is-plain-object": "^0.2.3",
     "@stdlib/assert-is-uint32array": "^0.2.3",
-    "@stdlib/console-log": "^0.2.3",
+    "@stdlib/console-log": "^0.2.4",
     "@stdlib/console-log-each": "^0.2.4",
     "@stdlib/fs-exists": "^0.2.3",
     "@stdlib/fs-read-dir": "^0.2.3",
